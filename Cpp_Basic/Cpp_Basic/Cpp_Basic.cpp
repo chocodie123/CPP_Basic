@@ -4,7 +4,8 @@
 int main()
 {
 	// cout << "HellO 새싹!\n";
-	problem();
+	//problem();
+	problem2();
 }
 
 void problem() {
@@ -40,6 +41,9 @@ void problem2() {
 	cin >> N;
 	int* Array = new int[N];
 	for (int i = 0; i < N; i++) {
-
+		Array[i] = i+1;
+		cout << Array[i];
 	}
+	
+	delete[] Array;
 }
