@@ -23,5 +23,8 @@
     <ClInclude Include="io.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="UpFunc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
